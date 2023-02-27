@@ -1,0 +1,27 @@
+{
+    "name": "Azle Live Alert",
+    "description": "Tu veux savoir si Azle est en stream ? C'est ici !",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+  
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+  
+      "icons": {
+        "16": "/images/az16.png",
+        "32": "/images/az32.png",
+        "48": "/images/az48.png",
+        "128": "/images/az128.png"
+      },
+
+      "permissions":[
+        "alarms",
+        "notifications"
+      ]
+
+      
+}
