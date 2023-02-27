@@ -9,7 +9,7 @@ const headers = {
     'Client-ID': clientId
 }
 
-let isLive = false; // stocker l'ID du dernier stream envoyé
+let isLive = false; 
 
 const cb = (json) => {
     if (json.data.length && !isLive) {
